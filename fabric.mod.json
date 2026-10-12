@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "donutauction",
+  "version": "${version}",
+  "name": "Donut Auction",
+  "description": "Streamer auctions for DonutSMP. Press \\ to pick an item, set a time and minimum price, and show a live auction bar at the top of your screen.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.donutauction.AuctionMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
